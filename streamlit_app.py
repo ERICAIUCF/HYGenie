@@ -4,7 +4,7 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 HY Genei")
 st.write(
-    "한양대학교 ERICA산학협력단 매뉴얼 기반 인공지능 챗봇입니다."
+    "한양대학교 ERICA산학협력단 매뉴얼 기반 인공지능 챗봇입니다.")
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
