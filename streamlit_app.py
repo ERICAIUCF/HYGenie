@@ -30,6 +30,9 @@ if 'messages' not in st.session_state:
 # 스트림릿 앱 제목
 st.title("한양대학교 ERICA 인공지능 매뉴얼")
 
+# 앱 내용
+st.write("앱 내용은 여기에 추가됩니다.")
+
 # 대화 내용 표시
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
