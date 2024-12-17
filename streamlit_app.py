@@ -37,7 +37,7 @@ import streamlit as st
 st.markdown("""
     <style>
         .tight-spacing {
-            line-height: 1.2;  /* 행간을 좁히는 값 */
+            line-height: 1;  /* 행간을 좁히는 값 */
         }
     </style>
     <div class="tight-spacing">
@@ -45,6 +45,7 @@ st.markdown("""
         부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요.
     </div>
 """, unsafe_allow_html=True)
+
 
 
 # 대화 내용 표시
