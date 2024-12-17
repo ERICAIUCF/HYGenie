@@ -35,8 +35,8 @@ st.markdown("""
             align-items: center;
         }
         .title img {
-            width: 10px;  /* 이미지 크기 조정 */
-            height: 10px;  /* 이미지 크기 조정 */
+            width: 5px;  /* 이미지 크기 조정 */
+            height: 5px;  /* 이미지 크기 조정 */
             margin-right: 10px;  /* 이미지와 제목 사이의 간격 */
         }
         .title {
