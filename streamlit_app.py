@@ -53,7 +53,7 @@ st.markdown("""
         한양대학교 ERICA 인공지능 매뉴얼입니다.<br>
     </div>
     <div class="second-line">
-        부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요.
+        부정확한 답변이 포함될 수 있으니 답변의 출처를 통해 다시 한 번 확인해주세요.
     </div>
     <div class="line-separator"></div>  <!-- 회색 줄 추가 -->
 """, unsafe_allow_html=True)
