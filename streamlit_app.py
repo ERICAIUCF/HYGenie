@@ -32,8 +32,19 @@ st.title("HY GENIE")
 
 # 앱 내용
 import streamlit as st
-# HTML로 줄 바꿈
-st.markdown("한양대학교 ERICA 인공지능 매뉴얼입니다.<br><br>부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요.", unsafe_allow_html=True)
+
+# HTML과 CSS로 줄 간격 좁히기
+st.markdown("""
+    <style>
+        .tight-spacing {
+            line-height: 1.2;  /* 행간을 좁히는 값 */
+        }
+    </style>
+    <div class="tight-spacing">
+        한양대학교 ERICA 인공지능 매뉴얼입니다.<br><br>
+        부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요.
+    </div>
+""", unsafe_allow_html=True)
 
 
 # 대화 내용 표시
