@@ -37,7 +37,7 @@ import streamlit as st
 st.markdown("""
     <style>
         .custom-text {
-            line-height: 1.2;  /* 줄 간격 좁히기 */
+            line-height: 1.5;  /* 줄 간격 좁히기 */
         }
     </style>
     <div class="custom-text">
