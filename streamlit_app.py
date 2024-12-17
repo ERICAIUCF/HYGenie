@@ -37,7 +37,7 @@ st.markdown("""
             line-height: 1.2;  /* 첫 번째 줄의 행간 좁히기 */
         }
         .second-line {
-            line-height: 1.8;  /* 두 번째 줄의 행간 넓히기 */
+            line-height: 1.2;  /* 두 번째 줄의 행간 넓히기 */
             padding-bottom: 10px;  /* 경계선과 텍스트 간의 간격 조정 */
         }
         .line-separator {
