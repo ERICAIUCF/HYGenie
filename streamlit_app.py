@@ -40,7 +40,7 @@ st.markdown("""
             line-height: 1.0;  /* 첫 번째 줄의 행간 좁히기 */
         }
         .second-line {
-            line-height: 2.0;  /* 두 번째 줄의 행간 넓히기 */
+            line-height: 3.0;  /* 두 번째 줄의 행간 넓히기 */
         }
     </style>
     <div class="first-line">
