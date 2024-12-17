@@ -36,12 +36,17 @@ import streamlit as st
 # HTML로 텍스트 스타일링 (줄 간격 좁히기)
 st.markdown("""
     <style>
-        .custom-text {
-            line-height: 1.5;  /* 줄 간격 좁히기 */
+        .first-line {
+            line-height: 1.2;  /* 첫 번째 줄의 행간 좁히기 */
+        }
+        .second-line {
+            line-height: 1.8;  /* 두 번째 줄의 행간 넓히기 */
         }
     </style>
-    <div class="custom-text">
+    <div class="first-line">
         한양대학교 ERICA 인공지능 매뉴얼입니다.<br>
+    </div>
+    <div class="second-line">
         부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요.
     </div>
 """, unsafe_allow_html=True)
