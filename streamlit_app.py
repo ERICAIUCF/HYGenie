@@ -31,7 +31,7 @@ if 'messages' not in st.session_state:
 st.title("HY GENIE")
 
 # 앱 내용
-st.write("한양대학교 ERICA 인공지능 매뉴얼입니다. 부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요")
+st.write("한양대학교 ERICA 인공지능 매뉴얼입니다. <br><br>부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요")
 
 # 대화 내용 표시
 for msg in st.session_state.messages:
