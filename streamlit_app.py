@@ -31,18 +31,23 @@ if 'messages' not in st.session_state:
 st.title("HY GENIE")
 
 # 앱 내용
-import streamlit as st
-
-# HTML로 텍스트 스타일링 (줄 간격 좁히기)
 st.markdown("""
     <style>
         .first-line {
-            line-height: 1.0;  /* 첫 번째 줄의 행간 좁히기 */
+            line-height: 1.2;  /* 첫 번째 줄의 행간 좁히기 */
         }
         .second-line {
             line-height: 1.8;  /* 두 번째 줄의 행간 넓히기 */
-            border-bottom: 1px solid gray;  /* 두 번째 줄 아래에 경계선 추가 */
-            padding-bottom: 15px;  /* 경계선과 텍스트 간의 간격 조정 */
+            border-bottom: 2px solid gray;  /* 두 번째 줄 아래에 회색 경계선 추가 */
+            padding-bottom: 10px;  /* 경계선과 텍스트 간의 간격 조정 */
+        }
+        .line-separator {
+            border-top: 2px solid gray;  /* 텍스트와 입력 필드 사이에 회색 줄 추가 */
+            margin-top: 20px;  /* 줄 위쪽 간격 넓히기 */
+            margin-bottom: 20px;  /* 줄 아래쪽 간격 넓히기 */
+        }
+        .input-area {
+            margin-top: 30px;  /* 입력 필드와 위의 텍스트 간 간격 넓히기 */
         }
     </style>
     <div class="first-line">
@@ -51,6 +56,7 @@ st.markdown("""
     <div class="second-line">
         부정확한 답변이 포함될 수 있으니, 답변의 출처를 통해 다시 한 번 확인해주세요.
     </div>
+    <div class="line-separator"></div>  <!-- 회색 줄 추가 -->
 """, unsafe_allow_html=True)
 
 
