@@ -41,8 +41,8 @@ st.markdown("""
             padding-bottom: 10px;  /* 경계선과 텍스트 간의 간격 조정 */
         }
         .line-separator {
-            border-top: 2px solid gray;  /* 회색 줄 추가 */
-            margin-top: 15px;  /* 줄 위쪽 간격 넓히기 */
+            border-top: 1.5px solid gray;  /* 회색 줄 추가 */
+            margin-top: 10px;  /* 줄 위쪽 간격 넓히기 */
             margin-bottom: 20px;  /* 줄 아래쪽 간격 넓히기 */
         }
         .input-area {
