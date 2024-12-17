@@ -42,7 +42,7 @@ st.markdown("""
         .second-line {
             line-height: 1.8;  /* 두 번째 줄의 행간 넓히기 */
             border-bottom: 1px solid gray;  /* 두 번째 줄 아래에 경계선 추가 */
-            padding-bottom: 20px;  /* 경계선과 텍스트 간의 간격 조정 */
+            padding-bottom: 15px;  /* 경계선과 텍스트 간의 간격 조정 */
         }
     </style>
     <div class="first-line">
