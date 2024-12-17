@@ -28,10 +28,10 @@ if 'messages' not in st.session_state:
     st.session_state.messages = []
 
 # 스트림릿 앱 제목
-st.title("한양대학교 ERICA 인공지능 매뉴얼")
+st.title("HY GENIE")
 
 # 앱 내용
-st.write("앱 내용은 여기에 추가됩니다.")
+st.write("한양대학교 ERICA 인공지능 매뉴얼")
 
 # 대화 내용 표시
 for msg in st.session_state.messages:
