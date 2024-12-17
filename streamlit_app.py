@@ -38,16 +38,15 @@ st.markdown("""
         }
         .second-line {
             line-height: 1.8;  /* 두 번째 줄의 행간 넓히기 */
-            border-bottom: 2px solid gray;  /* 두 번째 줄 아래에 회색 경계선 추가 */
             padding-bottom: 10px;  /* 경계선과 텍스트 간의 간격 조정 */
         }
         .line-separator {
-            border-top: 2px solid gray;  /* 텍스트와 입력 필드 사이에 회색 줄 추가 */
+            border-top: 2px solid gray;  /* 회색 줄 추가 */
             margin-top: 20px;  /* 줄 위쪽 간격 넓히기 */
             margin-bottom: 20px;  /* 줄 아래쪽 간격 넓히기 */
         }
         .input-area {
-            margin-top: 30px;  /* 입력 필드와 위의 텍스트 간 간격 넓히기 */
+            margin-top: 30px;  /* 질문 텍스트와 입력 필드 사이의 간격 넓히기 */
         }
     </style>
     <div class="first-line">
