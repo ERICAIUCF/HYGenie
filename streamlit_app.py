@@ -28,7 +28,28 @@ if 'messages' not in st.session_state:
     st.session_state.messages = []
 
 # 스트림릿 앱 제목
-st.title("HY GENIE")
+st.markdown("""
+    <style>
+        .title-container {
+            display: flex;
+            align-items: center;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-right: 20px;  /* 이미지와 제목 사이의 간격 */
+        }
+        .title img {
+            width: 40px;  /* 이미지 크기 조정 */
+            height: 40px;  /* 이미지 크기 조정 */
+        }
+    </style>
+    <div class="title-container">
+        <div class="title">HY GENIE</div>
+        <!-- 여기서 URL을 넣으면 됩니다. -->
+        <img src="https://phinf.pstatic.net/contact/20220302_206/1646202578988H4eM6_JPEG/image.jpg?type=s160" alt="이미지" />  
+    </div>
+""", unsafe_allow_html=True)
 
 # 앱 내용
 st.markdown("""
