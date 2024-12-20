@@ -56,12 +56,12 @@ st.markdown("""
     <style>
         .first-line {
             line-height: 1.2;  /* 첫 번째 줄의 행간 좁히기 */
-            font-size: 13px;    /* 글씨 크기 줄이기 */
+            font-size: 15px;    /* 글씨 크기 줄이기 */
         }
         .second-line {
             line-height: 1.8;  /* 두 번째 줄의 행간 넓히기 */
             padding-bottom: 10px;  /* 경계선과 텍스트 간의 간격 조정 */
-            font-size: 13px;    /* 글씨 크기 줄이기 */
+            font-size: 15px;    /* 글씨 크기 줄이기 */
         }
         .line-separator {
             border-top: 1.5px solid gray;  /* 회색 줄 추가 */
