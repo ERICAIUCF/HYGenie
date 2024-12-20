@@ -47,7 +47,7 @@ st.markdown("""
     <div class="title-container">
         <!-- 이미지가 제목 앞에 오도록 배치 -->
         <img src="https://phinf.pstatic.net/contact/20241217_116/1734410965291MnePL_PNG/image.png?type=s160" alt="이미지" />
-        <div class="title" style="font-size: 50px;">HY GENIE</div>
+        <div class="title" style="font-size: 55px;">HY GENIE</div>
 
 """, unsafe_allow_html=True)
 
